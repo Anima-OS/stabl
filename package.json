@@ -1,0 +1,39 @@
+{
+  "name": "stabl",
+  "version": "1.0.0",
+  "description": "An opinionated commandline tool to add stability indices to a module's README and package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --config .prettierrc --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anima-OS/stabl.git"
+  },
+  "keywords": [
+    "stability",
+    "stabl",
+    "API",
+    "module",
+    "devops",
+    "documentation",
+    "README",
+    "package.json"
+  ],
+  "author": "Mark 'Happy-Ferret' Bauermeister",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Anima-OS/stabl/issues"
+  },
+  "homepage": "https://github.com/Anima-OS/stabl#readme",
+  "dependencies": {
+    "markdown-sections": "~1.0.1",
+    "optimist": "~0.3.5",
+    "chalk": "^2.3.2"
+  },
+  "devDependencies": {
+    "prettier": "1.11.1"
+  },
+  "stability": "stable"
+}
