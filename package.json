@@ -1,8 +1,11 @@
 {
   "name": "stabl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An opinionated commandline tool to add stability indices to a module's README and package.json",
   "main": "index.js",
+  "bin": {
+    "stabl": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretty": "prettier --config .prettierrc --write *.js"
